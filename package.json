@@ -1,10 +1,11 @@
 {
-  "name": "node-1",
+  "name": "1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/jullietIT/Node-1/issues"
   },
-  "homepage": "https://github.com/jullietIT/Node-1#readme"
+  "homepage": "https://github.com/jullietIT/Node-1#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "console.table": "^0.10.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "yargs": "^17.6.2"
+  },
+  "description": ""
 }
